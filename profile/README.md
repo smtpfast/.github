@@ -30,14 +30,14 @@ Create an API key and verify your sending domain in the [dashboard](https://smtp
 
 We build in the open. A few things you can use today:
 
-- [**terraform-provider-smtpfast**](https://github.com/smtpfast/terraform-provider-smtpfast) — manage sending domains, API keys, and webhooks as code. Register a domain and publish its DNS records in a single `terraform apply`.
-- [**smtpfast-skill**](https://github.com/smtpfast/smtpfast-skill) — an Agent Skill that teaches Claude and other agents how to use the SMTPfast API.
+- [**terraform-provider-smtpfast**](https://github.com/smtpfast/terraform-provider-smtpfast): manage sending domains, API keys, and webhooks as code. Register a domain and publish its DNS records in a single `terraform apply`.
+- [**smtpfast-skill**](https://github.com/smtpfast/smtpfast-skill): an Agent Skill that teaches Claude and other agents how to use the SMTPfast API.
 
 ## Why SMTPfast
 
 - **Simple, modern API** with SDKs, an [OpenAPI spec](https://smtpfa.st), and an MCP server, so it works as well with agents as with your code.
-- **Deliverability built in** — DKIM, SPF, DMARC, and one-click Cloudflare DNS setup for your sending domains.
-- **The essentials, done well** — transactional sends, batches, contacts, broadcasts, suppressions, and webhooks.
+- **Deliverability built in**: DKIM, SPF, DMARC, and one-click Cloudflare DNS setup for your sending domains.
+- **The essentials, done well**: transactional sends, batches, contacts, broadcasts, suppressions, and webhooks.
 
 ## Links
 
